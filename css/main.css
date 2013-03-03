@@ -59,10 +59,10 @@ body
 
 #hacky
 {
-	height: 100px;
-	width: 377px;
+	height: 53px;
+	width: 200px;
 	background: url("../img/header_m.png") no-repeat;
-	background-size: 377px 100px;
+	background-size: 200px 53px;
 	display: inline-block;
 	margin-left: 20px;
 }
@@ -72,15 +72,6 @@ body
 	#hacky
 	{
 		background-image: url("../img/header_m@2.png");
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	#hacky {
-		height: 100px;
-		width: 377px;
-		background: url("../img/header_m.png") no-repeat;
-		background-size: 377px 100px;
 	}
 }
 
