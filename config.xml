@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.getmedieval.app"
+        versionCode="10" 
+        version   = "1.0.11">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Get Medieval</name>
+
+    <description>
+        Has thou ever sat in thies chambers and pondred about thous acquaintances that thou cannot interpret? OH, sorry! Let me translate that for you... with my amazing app, Get Medieval.
+    </description>
+
+    <author href="http://getmedieval.co" email="people@getmedieval.co">
+        The Get Medieval Team
+    </author>
+
+    <preference name="orientation"      value="portrait" />
+
+    <icon src="icon.png" />
+    <icon src="assets/icon_24.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="assets/icon_36.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="assets/icon_48.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="assets/icon_64.png"   gap:platform="android"    gap:density="xhdpi" />
+
+    <gap:splash src="assets/screen-ldpi.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="assets/screen-mdpi.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="assets/screen-hdpi.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="assets/screen-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+</widget>
