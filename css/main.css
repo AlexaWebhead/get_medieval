@@ -45,16 +45,25 @@ body
 	height: 85%;
 }
 
-#button
+#container
 {
-	position: relative;
-	display: block;
 	text-align: center;
-	color: #661E06;
+}
+#button, #undo
+{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
 	font-size: 30px;
 	color: white;
-	width: 100%;
-	padding-top: 20px;
+	padding: 20px;
+	padding-bottom: 0;
+	margin: auto;
+}
+
+#undo
+{
+	color: rgba(255,255,255,0.5);
 }
 
 #hacky
@@ -75,5 +84,4 @@ body
 	}
 }
 
-
-#button:hover {	cursor: pointer; }
+#button:hover, #undo:hover { cursor: pointer; }

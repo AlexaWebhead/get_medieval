@@ -8,7 +8,22 @@ function toTranslated(line) {
         newLine = newLine.replace(key, data.standard[key]);
     }
 
-    newLine = newLine.replace(" i", " I");
+    newLine = newLine.replace(" i ", " I ");
+    newLine = newLine.replace("i ", "I ");
+
+    return newLine;
+}
+
+function unTranslate(line) {
+
+    var newLine = line.toLowerCase();
+
+    for (var key in data.standard)
+    {
+        newLine = newLine.replace(data.standard[key], key);
+    }
+
+    newLine = newLine.replace(" i ", " I ");
     newLine = newLine.replace("i ", "I ");
 
     return newLine;

@@ -13,15 +13,15 @@
 </head>
 <body>
 
-	<div id="logo">
-		<div id="hacky">
-			<!--<img src="img/header_m.png" alt="logo" />-->
-		</div>
-	</div>
+	<div id="logo"><div id="hacky"></div></div>
+
 
 	<div id="content">
 		<textarea id="input"></textarea>
-		<div id="button">onward!</div>
+		<div id="container">
+			<div id="button">onward!</div>
+			<div id="undo">undo</div>
+		</div>
 	</div>
 
 
@@ -39,11 +39,15 @@
 				return false;
 			}
 		});
+		$("#undo").click(function() {
+			$("#input").val(unTranslate($("#input").val()));
+		});
 		$(function(){
 			setTimeout(function(){
 				window.scrollTo(0, 1);
 			}, 0);
 		});
+
 	</script>
 </body>
 </html>
