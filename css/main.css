@@ -1,7 +1,7 @@
 body
 {
 	font-family: 'Open Sans';
-	background: #9f2800 url("img/back_texture.jpg");
+	background: #9f2800 url("../img/bg.jpg");
 }
 
 #logo, #content
@@ -61,7 +61,7 @@ body
 {
 	height: 100px;
 	width: 377px;
-	background: url("img/header_m.png") no-repeat;
+	background: url("../img/header_m.png") no-repeat;
 	background-size: 377px 100px;
 	display: inline-block;
 	margin-left: 20px;
@@ -71,7 +71,16 @@ body
 {
 	#hacky
 	{
-		background-image: url("img/header_m@2.png");
+		background-image: url("../img/header_m@2.png");
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#hacky {
+		height: 100px;
+		width: 377px;
+		background: url("../img/header_m.png") no-repeat;
+		background-size: 377px 100px;
 	}
 }
 

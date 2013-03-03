@@ -17,10 +17,10 @@
     <preference name="orientation"      value="portrait" />
 
     <icon src="icon.png" />
-    <icon src="assets/icon_24.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="assets/icon_36.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="assets/icon_48.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="assets/icon_64.png"   gap:platform="android"    gap:density="xhdpi" />
+    <icon src="assets/icon_36.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="assets/icon_48.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="assets/icon_72.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="assets/icon_96.png"   gap:platform="android"    gap:density="xhdpi" />
 
     <gap:splash src="assets/screen-ldpi.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="assets/screen-mdpi.png"  gap:platform="android" gap:density="mdpi" />
